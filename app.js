@@ -21,7 +21,7 @@ app.use(express.static('public'));
 
 
 
-app.get('/', (req, res) => { res.send('Welcome To AST') ; res.end();});
+app.get('/', (req, res) => { res.send('Welcome To OMOC') ; res.end();});
 app.use('/api/user', userRoutes);
 app.use('/api/language', languageRoutes);
 app.use('/api/expertise', expertiseRoutes);

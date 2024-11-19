@@ -2,16 +2,7 @@ require('dotenv').config();
 
 const connectDB = require('./Database/connect.js');
 
-// const contactusRoutes = require('./Routes/contactusRoute.js');
-// const scheduleRoutes = require('./Routes/scheduleRoute.js');
-// const sendmessageRoutes = require('./Routes/sendmessageRoute.js');
-// const path = require('path');
-// const inspectionRoutes = require('./Routes/inspectionRoutes');
-// const observationRoutes = require('./Routes/observationRoutes');
 
-// const jwt = require('jsonwebtoken');
-// const asyncHandler = require('express-async-handler');
-// const User = require('./models/user');
 
 
 
