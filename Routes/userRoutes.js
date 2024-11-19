@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {signupUser,getUser,updateUser,deleteUser,loginUser,getcustomers,getasts,getmyasts,forgetPassword,verifyOtp,resetPassword,changePassword,registerUser,verifyEmail,resendOTP,forgetpass,users,changepass,resetpass,getUserProfile,updateUserProfile,deleteUserProfile,thirdpartyUser,logout} = require('../Controllers/userController');
+const {signupUser,getUser,updateUser,deleteUser,loginUser,getcustomers,getasts,getmyasts,forgetPassword,verifyOtp,resetPassword,changePassword,registerUser,verifyEmail,resendOTP,forgetpass,users,changepass,resetpass,getUserProfile,updateUserProfile,deleteUserProfile,thirdpartyUser,logout} = require('../Controllers/userController.js');
 const { protect,checkUserExists } = require('../Middlewares/auth');
 const { uploadProfileImage } = require('../Middlewares/uploadImage');
 
